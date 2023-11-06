@@ -1,5 +1,9 @@
 package OOP.Ananymous_classes;
 
+import OOP.Polymorfizm.Interface.Functional_interfaces.Sounding;
+
+import java.util.logging.SocketHandler;
+
 public class Runner {
     public static void main(String[] args) {
         Alive dog = new Alive() { //анонимный класс
@@ -23,6 +27,7 @@ public class Runner {
             }
         };
         System.out.println("TEST");
+        System.out.println();
         System.out.println();
         cat.eat();
     }
