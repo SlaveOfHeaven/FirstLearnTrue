@@ -23,6 +23,7 @@ public class Runner {
             }
         };
         System.out.println("TEST");
+        System.out.println();
         cat.eat();
     }
 }
