@@ -22,6 +22,7 @@ public class Runner {
                 System.out.println("кот ест");
             }
         };
+        System.out.println("TEST");
         cat.eat();
     }
 }
